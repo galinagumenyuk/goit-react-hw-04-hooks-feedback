@@ -1,0 +1,15 @@
+.button + .button {
+  margin-left: 15px;
+}
+.button {
+  align-items: center;
+  width: 60px;
+  border-radius: 4px;
+  border: 1px;
+  color: white;
+  background-color: rgb(112, 111, 111);
+  padding: 10px;
+}
+.button:hover {
+  background-color: rgb(133, 131, 131);
+}
