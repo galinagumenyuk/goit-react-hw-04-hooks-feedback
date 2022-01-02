@@ -1,7 +1,8 @@
 import React from "react";
 import s from "./FeedbackOptions.module.css";
 
-const FeedbackOptions = ({ onLeaveFeedback, state }) => {
+const FeedbackOptions = ({ onLeaveFeedback, good, neutral, bad }) => {
+  const state = { good, neutral, bad };
   return (
     <div>
       {Object.keys(state).map((key) => (
